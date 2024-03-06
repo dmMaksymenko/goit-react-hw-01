@@ -1,7 +1,7 @@
 import "./Profile.module.css";
 function Profile({ name, tag, location, image, stats }) {
   return (
-    <div className="profile-box">
+    <div>
       <div>
         <img className="avatar" src={image} alt="User avatar" />
         <p>{name}</p>
