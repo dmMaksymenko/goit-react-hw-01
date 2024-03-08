@@ -4,7 +4,7 @@ import FriendList from "./components/FriendList/FriendList";
 import friends from "./data/friends.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import transactions from "./data/transactions.json";
-function App() {
+const App = () => {
   return (
     <>
       <Profile
@@ -18,6 +18,6 @@ function App() {
       <TransactionHistory items={transactions} />
     </>
   );
-}
+};
 
 export default App;
