@@ -1,17 +1,13 @@
-p {
-  color: grey;
-  font-size: 18px;
-  line-height: 1.5;
-}
 .profileBox {
   width: 300px;
   height: 350px;
   background-color: lightgrey;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   border: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .avatar {
   margin-top: 10px;
@@ -24,7 +20,7 @@ p {
   width: 100%;
   list-style: none;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   border: 1px solid black;
   margin-top: auto;
 }

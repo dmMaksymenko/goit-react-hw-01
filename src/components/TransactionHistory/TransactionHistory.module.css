@@ -1,0 +1,19 @@
+.container {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.containerHeader {
+  background-color: black;
+  color: white;
+}
+
+.rowItem {
+  text-transform: capitalize;
+}
+
+.rowItem:nth-child(even) {
+  background-color: grey;
+}
