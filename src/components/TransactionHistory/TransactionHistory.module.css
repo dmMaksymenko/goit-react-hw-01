@@ -1,5 +1,4 @@
 .container {
-  border: 1px solid black;
   margin: 0 auto;
   width: 600px;
   text-align: center;
@@ -13,7 +12,9 @@
 .rowItem {
   text-transform: capitalize;
 }
-
+.rowItem td {
+  border: 1px solid black;
+}
 .rowItem:nth-child(even) {
   background-color: grey;
 }
